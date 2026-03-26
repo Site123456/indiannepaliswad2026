@@ -29,7 +29,7 @@ export default function LogoIntro({ onComplete }: Props) {
 
       <div className="relative flex items-center justify-center">
         <Image
-          src="https://indian-nepaliswad.fr/etc/logo.png"
+          src="/etc/logo.png"
           alt="Indian Nepali Swad Logo"
           width={200}
           height={200}
