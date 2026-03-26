@@ -30,15 +30,30 @@ export const metadata: Metadata = {
     "gastronomie népalaise",
     "restaurant Paris",
     "INDIAN NEPALI SWAD",
+    "best indian restaurant paris",
+    "best nepali restaurant france",
+    "restaurant indien paris 15",
+    "momos paris",
+    "authentic indian food paris",
+    "nepali food paris",
+    "tandoori paris",
+    "biryani paris",
+    "restaurant indien livraison",
+    "restaurant népalais livraison",
+    "indian food near me paris",
+    "nepali momo near me",
+    "top indian restaurants france",
+    "cuisine indo-népalaise",
   ],
 
   alternates: {
     canonical: "https://www.indian-nepaliswad.fr",
     languages: {
       "fr-FR": "https://www.indian-nepaliswad.fr",
+      "en-US": "https://www.indian-nepaliswad.fr/",
+      "en-GB": "https://www.indian-nepaliswad.fr/",
     },
   },
-
   authors: [{ name: "INDIAN NEPALI SWAD", url: "https://www.indian-nepaliswad.fr" }],
   creator: "INDIAN NEPALI SWAD",
   publisher: "INDIAN NEPALI SWAD",
@@ -68,7 +83,7 @@ export const metadata: Metadata = {
   },
 
   manifest: "/manifest.json",
-
+  
   openGraph: {
     title: "INDIAN NEPALI SWAD — Cuisine Indienne & Népalaise",
     description:
@@ -121,6 +136,9 @@ export const metadata: Metadata = {
     rating: "general",
     distribution: "global",
     referrer: "origin-when-cross-origin",
+    "format-detection": "telephone=yes, email=yes, address=yes",
+    "application-category": "Food & Drink, Restaurant, Indian Restaurant, Nepali Restaurant",
+
   },
 };
 
@@ -137,28 +155,196 @@ export const viewport: Viewport = {
 };
 
 function StructuredData() {
-  const restaurantSchema = {
+  const restaurantSchemas = [
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      name: "INDIAN NEPALI SWAD – Paris 15",
+      url: "https://www.indian-nepaliswad.fr",
+      logo: "https://www.indian-nepaliswad.fr/etc/logo.png",
+      image: "https://www.indian-nepaliswad.fr/banner.png",
+      servesCuisine: ["Indienne", "Népalaise"],
+      description:
+        "Restaurant indien et népalais à Paris 15 : momos, currys, biryanis, tandoori et spécialités végétariennes.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "4 Rue Bargue",
+        addressLocality: "Paris",
+        postalCode: "75015",
+        addressCountry: "FR"
+      },
+      telephone: "+33145327373",
+      priceRange: "$$",
+      hasMap: "https://www.google.com/maps/place/4+Rue+Bargue,+75015+Paris",
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.6",
+        reviewCount: "2000"
+      },
+      sameAs: [
+        "https://deliveroo.fr/fr/menu/paris/Pasteur/bidit-risheb/"
+      ]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      name: "INDIAN NEPALI SWAD – Bordeaux",
+      url: "https://www.indian-nepaliswad.fr",
+      logo: "https://www.indian-nepaliswad.fr/etc/logo.png",
+      image: "https://www.indian-nepaliswad.fr/banner.png",
+      servesCuisine: ["Indienne", "Népalaise"],
+      description:
+        "Restaurant indien et népalais à Bordeaux : momos, currys, biryanis, tandoori et spécialités végétariennes.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Éditions Cour du Médoc",
+        addressLocality: "Bordeaux",
+        postalCode: "33300",
+        addressCountry: "FR"
+      },
+      telephone: "+33145327373",
+      priceRange: "$$",
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.6",
+        reviewCount: "1500"
+      },
+      sameAs: [
+        "https://deliveroo.fr/fr/menu/bordeaux/bordeaux-editions-cour-du-medoc/indian-nepali-swad-editions-bordeaux/"
+      ]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      name: "INDIAN NEPALI SWAD – Courbevoie / La Défense",
+      url: "https://www.indian-nepaliswad.fr",
+      logo: "https://www.indian-nepaliswad.fr/etc/logo.png",
+      image: "https://www.indian-nepaliswad.fr/banner.png",
+      servesCuisine: ["Indienne", "Népalaise"],
+      description:
+        "Restaurant indien et népalais en livraison à Courbevoie et La Défense.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Ouest Parisien",
+        addressLocality: "Courbevoie",
+        postalCode: "92400",
+        addressCountry: "FR"
+      },
+      telephone: "+33145327373",
+      priceRange: "$$",
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.6",
+        reviewCount: "1300"
+      },
+      sameAs: [
+        "https://deliveroo.fr/fr/menu/paris/editions-courbevoie/indian-nepali-swad-editions-courbevoie/"
+      ]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      name: "INDIAN NEPALI SWAD – Saint‑Ouen / Aubervilliers",
+      url: "https://www.indian-nepaliswad.fr",
+      logo: "https://www.indian-nepaliswad.fr/etc/logo.png",
+      image: "https://www.indian-nepaliswad.fr/banner.png",
+      servesCuisine: ["Indienne", "Népalaise"],
+      description:
+        "Restaurant indien et népalais en livraison à Saint‑Ouen et Aubervilliers.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Nord Parisien",
+        addressLocality: "Saint-Ouen",
+        postalCode: "93400",
+        addressCountry: "FR"
+      },
+      telephone: "+33145327373",
+      priceRange: "$$",
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.5",
+        reviewCount: "1100"
+      },
+      sameAs: [
+        "https://deliveroo.fr/fr/menu/paris/editions-saint-ouen/indian-nepali-swad-editions-aubervilliers/"
+      ]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      name: "INDIAN NEPALI SWAD – Bagneux",
+      url: "https://www.indian-nepaliswad.fr",
+      logo: "https://www.indian-nepaliswad.fr/etc/logo.png",
+      image: "https://www.indian-nepaliswad.fr/banner.png",
+      servesCuisine: ["Indienne", "Népalaise"],
+      description:
+        "Restaurant indien et népalais en livraison à Bagneux.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Éditions Bagneux",
+        addressLocality: "Bagneux",
+        postalCode: "92220",
+        addressCountry: "FR"
+      },
+      telephone: "+33145327373",
+      priceRange: "$$",
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.6",
+        reviewCount: "900"
+      },
+      sameAs: [
+        "https://deliveroo.fr/fr/menu/paris/editions-site-bagneux/indian-nepali-swad-editions-bagneux/"
+      ]
+    },
+
+    {
+      "@context": "https://schema.org",
+      "@type": "Restaurant",
+      name: "INDIAN NEPALI SWAD – Ivry",
+      url: "https://www.indian-nepaliswad.fr",
+      logo: "https://www.indian-nepaliswad.fr/etc/logo.png",
+      image: "https://www.indian-nepaliswad.fr/banner.png",
+      servesCuisine: ["Indienne", "Népalaise"],
+      description:
+        "Restaurant indien et népalais en livraison à Ivry-sur-Seine.",
+      address: {
+        "@type": "PostalAddress",
+        streetAddress: "Éditions Ivry",
+        addressLocality: "Ivry-sur-Seine",
+        postalCode: "94200",
+        addressCountry: "FR"
+      },
+      telephone: "+33145327373",
+      priceRange: "$$",
+      aggregateRating: {
+        "@type": "AggregateRating",
+        ratingValue: "4.5",
+        reviewCount: "950"
+      },
+      sameAs: [
+        "https://deliveroo.fr/fr/menu/paris/editions-ivry/indian-nepali-swad-editions-ivry/"
+      ]
+    }
+  ];
+
+  const organizationSchema = {
     "@context": "https://schema.org",
-    "@type": "Restaurant",
+    "@type": "Organization",
     name: "INDIAN NEPALI SWAD",
     url: "https://www.indian-nepaliswad.fr",
     logo: "https://www.indian-nepaliswad.fr/etc/logo.png",
-    image: "https://www.indian-nepaliswad.fr/banner.png",
-    servesCuisine: ["Indienne", "Népalaise"],
-    description:
-      "Restaurant indien et népalais proposant des plats traditionnels : momos, currys, biryanis, tandoori et spécialités végétariennes.",
-    address: {
-      "@type": "PostalAddress",
-      streetAddress: "",
-      addressLocality: "",
-      postalCode: "",
-      addressCountry: "FR",
-    },
-    telephone: "",
     sameAs: [
       "https://www.facebook.com/",
       "https://www.instagram.com/",
+      "https://search.indian-nepaliswad.fr"
     ],
+    description:
+      "Indian Nepali Swad — meilleur restaurant indien et népalais en France. Livraison rapide : Paris, Bordeaux, Courbevoie, Saint‑Ouen, Bagneux, Ivry."
   };
 
   const websiteSchema = {
@@ -168,25 +354,36 @@ function StructuredData() {
     url: "https://www.indian-nepaliswad.fr",
     potentialAction: {
       "@type": "SearchAction",
-      target: {
-        "@type": "EntryPoint",
-        urlTemplate:
-          "https://www.indian-nepaliswad.fr/search/{search_term_string}",
+      target: "https://www.indian-nepaliswad.fr/search/{search_term_string}",
+      "query-input": "required name=search_term_string"
+    }
+  };
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: [
+      {
+        "@type": "ListItem",
+        position: 1,
+        name: "Accueil",
+        item: "https://www.indian-nepaliswad.fr"
       },
-      "query-input": "required name=search_term_string",
-    },
+      {
+        "@type": "ListItem",
+        position: 2,
+        name: "Commander",
+        item: "https://www.indian-nepaliswad.fr/#deliveroo"
+      }
+    ]
   };
 
   return (
     <>
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(restaurantSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(restaurantSchemas) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     </>
   );
 }
@@ -195,6 +392,9 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="fr" className="auto" suppressHydrationWarning>
       <head>
+        <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests" />
+        <link rel="preconnect" href="https://deliveroo.fr" />
+        <link rel="preconnect" href="https://search.indian-nepaliswad.fr" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link
           rel="preconnect"
@@ -203,7 +403,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         />
         <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
         <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
-
+        <link rel="icon" href="/etc/logo.png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
           rel="stylesheet"
@@ -213,10 +413,11 @@ export default function RootLayout({ children }: { children: ReactNode }) {
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
       </head>
 
-      <body
+      <body id="top"
         className="antialiased bg-[#010104] text-neutral-50 min-h-screen"
         style={{ fontFamily: "'Inter', system-ui, sans-serif" }}
       >
+        <noscript>Veuillez activer JavaScript pour profiter pleinement du site INDIAN NEPALI SWAD.</noscript>
         <a
           href="#main-content"
           className="sr-only focus:not-sr-only focus:fixed focus:top-4 focus:left-4 focus:z-9999 focus:px-4 focus:py-2 focus:bg-red-600 focus:text-white focus:rounded-lg focus:text-sm focus:font-semibold"

@@ -55,7 +55,7 @@ export function CinematicProvider({ children }: { children: ReactNode }) {
         {/* Floating Logo */}
         <div className="relative flex items-center justify-center">
           <Image
-            src="/etc/logo.png"
+            src="https://indian-nepaliswad.fr/etc/logo.png"
             alt="Indian Nepali Swad"
             width={200}
             height={200}
