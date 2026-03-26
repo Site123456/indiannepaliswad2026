@@ -4,7 +4,7 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/license-Proprietary-red" alt="License">
-  <img src="https://img.shields.io/Website+Status?url=https%3A%2F%2Fwww.indian-nepaliswad.fr" alt="Website Link">
+  <img src="https://img.shields.io/Website Status?url=https%3A%2F%2Fwww.indian-nepaliswad.fr" alt="Website Link">
 </p>
 
 # 🥘 **Indian Nepali Swad**  
