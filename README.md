@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/license-2017-2026-red" alt="License">
+  <img src="https://img.shields.io/badge/license-2026-red" alt="License">
   <img src="https://img.shields.io/website?url=https%3A%2F%2Fwww.indian-nepaliswad.fr" alt="Website Status">
 </p>
 
