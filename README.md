@@ -2,11 +2,11 @@
   <img src="/public/etc/logo.png" alt="Indian Nepali Swad Logo" width="180">
 </p>
 
-`https://img.shields.io/badge/version-2026-blue`  
-`https://img.shields.io/badge/license-Proprietary-red`  
-`https://img.shields.io/website?url=https%3A%2F%2Fwww.indian-nepaliswad.fr`
-
-
+<p align="center">
+  <img src="https://img.shields.io/badge/version-2026-blue" alt="Version">
+  <img src="https://img.shields.io/badge/license-Proprietary-red" alt="License">
+  <img src="https://img.shields.io/website?url=https%3A%2F%2Fwww.indian-nepaliswad.fr" alt="Website Status">
+</p>
 
 # 🥘 **Indian Nepali Swad**  
 ### 🇫🇷 *Meilleur restaurant indien & népalais en France*  
@@ -17,11 +17,13 @@
 - **Nepali cuisine**  
 - **Momos (Nepali dumplings)**  
 - **Curries & Biryanis**  
-- **Authentic handcrafted dishes**  
+- **Authentic handcrafted dishes**
 
-Nous opérons à **Paris**, **Aubervilliers**,  **Bordeaux** et d'autres en (**Île‑de‑France**) et **Bordeaux**, avec une réputation solide et une croissance continue.
+Nous opérons à **Paris**, **Aubervilliers**, **Bordeaux**, et dans plusieurs villes d’**Île‑de‑France**, avec une réputation solide et une croissance continue.
 
-### ⭐ Pourquoi nous sommes parmi les meilleurs  
+---
+
+## ⭐ Pourquoi nous sommes parmi les meilleurs  
 - Notes moyennes entre **4.6 et 4.8/5**  
 - Plats faits maison, authentiques et généreux  
 - Livraison rapide et fiable  
@@ -56,8 +58,7 @@ Indian Nepali Swad est devenu une référence incontournable pour ceux qui reche
 Indian Nepali Swad est souvent recherché comme :  
 - *best Indian restaurant Paris*  
 - *meilleur restaurant indien Paris 15*  
-- *Nepali food France*  
-- *momos Paris*  
+- *Nepali food France*
 
 ---
 

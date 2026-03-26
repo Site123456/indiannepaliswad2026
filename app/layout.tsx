@@ -15,7 +15,7 @@ export const metadata: Metadata = {
   },
 
   description:
-    "INDIAN NEPALI SWAD vous propose une cuisine indienne et népalaise authentique, préparée avec des épices traditionnelles, des recettes maison et des saveurs venues directement du sous-continent. Découvrez nos currys, biryanis, momos, grillades tandoori et spécialités végétariennes.",
+    "INDIAN NEPALI SWAD vous invite à un véritable voyage culinaire entre l’Inde et le Népal. Nos chefs préparent chaque plat avec des épices authentiques, des recettes traditionnelles et un savoir‑faire transmis depuis des générations. Nos currys parfumés mijotent lentement pour révéler toutes leurs nuances, nos biryanis mêlent riz basmati et arômes délicats, et nos momos faits maison incarnent la gourmandise népalaise dans toute sa simplicité. Les grillades tandoori, cuites dans le four traditionnel, apportent une touche fumée irrésistible, tandis que nos nombreuses spécialités végétariennes offrent des saveurs riches et généreuses. Présent à: Paris 15, Ivry, Courbevoie, Aubervilliers, Saint‑Ouen, bref dans toute l’Île‑de‑France et Bordeaux, INDIAN NEPALI SWAD partage partout la même passion : offrir une cuisine chaleureuse, authentique et pleine de caractère, directement inspirée du sous‑continent.",
 
   keywords: [
     "restaurant indien",
@@ -178,7 +178,7 @@ function StructuredData() {
       hasMap: "https://www.google.com/maps/place/4+Rue+Bargue,+75015+Paris",
       aggregateRating: {
         "@type": "AggregateRating",
-        ratingValue: "4.6",
+        ratingValue: "4.7",
         reviewCount: "2000"
       },
       sameAs: [
@@ -204,10 +204,10 @@ function StructuredData() {
         addressCountry: "FR"
       },
       telephone: "+33145327373",
-      priceRange: "$$",
+      priceRange: "€€",
       aggregateRating: {
         "@type": "AggregateRating",
-        ratingValue: "4.6",
+        ratingValue: "4.8",
         reviewCount: "1500"
       },
       sameAs: [
@@ -233,7 +233,7 @@ function StructuredData() {
         addressCountry: "FR"
       },
       telephone: "+33145327373",
-      priceRange: "$$",
+      priceRange: "€€",
       aggregateRating: {
         "@type": "AggregateRating",
         ratingValue: "4.6",
@@ -262,7 +262,7 @@ function StructuredData() {
         addressCountry: "FR"
       },
       telephone: "+33145327373",
-      priceRange: "$$",
+      priceRange: "€€",
       aggregateRating: {
         "@type": "AggregateRating",
         ratingValue: "4.5",
@@ -291,7 +291,7 @@ function StructuredData() {
         addressCountry: "FR"
       },
       telephone: "+33145327373",
-      priceRange: "$$",
+      priceRange: "€€",
       aggregateRating: {
         "@type": "AggregateRating",
         ratingValue: "4.6",
@@ -320,7 +320,7 @@ function StructuredData() {
         addressCountry: "FR"
       },
       telephone: "+33145327373",
-      priceRange: "$$",
+      priceRange: "€€",
       aggregateRating: {
         "@type": "AggregateRating",
         ratingValue: "4.5",
@@ -344,7 +344,7 @@ function StructuredData() {
       "https://search.indian-nepaliswad.fr"
     ],
     description:
-      "Indian Nepali Swad — meilleur restaurant indien et népalais en France. Livraison rapide : Paris, Bordeaux, Courbevoie, Saint‑Ouen, Bagneux, Ivry."
+      "Indian Nepali Swad — meilleur restaurant indien et népalais en France. Livraison rapide : Paris, Bordeaux, Courbevoie, Saint-Ouen, Bagneux, Aubervilliers, Ivry."
   };
 
   const websiteSchema = {
