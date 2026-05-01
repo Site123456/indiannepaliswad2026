@@ -1,3 +1,7 @@
+
+> Note: This repository contains an earlier open-source version of [www.indian-nepaliswad.fr](http://www.indian-nepaliswad.fr). The current version, with improved chat and AI features, is now closed source.
+
+
 <p align="center">
   <img src="/public/etc/logo.png" alt="Indian Nepali Swad Logo" width="180">
 </p>
